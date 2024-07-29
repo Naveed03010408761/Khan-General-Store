@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="account.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <a href="#" id="imag"><img
+                src="imgs/logo.png"
+                width="80px" height="72px"></a>
+        <a href="store.html">Home</a>
+        <a href="product.html">Products</a>
+        <select>
+            <option>Shop</option>
+            <option>Categories</option>
+            <option>New Arrivals</option>
+            <option>Best Sellers</option>
+        </select>
+        <a href="account.html">Account</a>
+        <a href="contact.html">Contact Us</a>
+        <input type="text" placeholder="Search here for everything"><i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+    <div class="div">
+    <div class="section1">
+        <h1>Make Your Account</h1>
+    </div>
+
+    <div class="form">
+        <form id="myForm" action="/submit" method="post" enctype="multipart/form-data" autocomplete="on">
+            <label for="name" class="f">Name:</label><br>
+            <input type="text" id="name" placeholder="Enter Your Name" required class="f"><br>
+            <label for="email" class="f">Email:</label><br>
+            <input type="email" id="email" placeholder="Enter Your Email" required class="f"><br>
+            <label for="password" class="f">Password:</label><br>
+            <input type="password" id="password" placeholder="Enter Your Password" required class="f"><br>
+            <label for="gender" class="f">Gender:</label>
+            <select id="gender" name="gender" class="f">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <label for="bio" class="f">Biography</label><br>
+            <textarea id="bio" name="bio" rows="4" cols="50" placeholder="Tell us about yourself"
+                class="f"></textarea><br>
+            <label for="agree" class="f">I agree to the terms and conditions</label>
+            <input type="checkbox" id="agree" name="agree" required class="f"><br>
+            <button type="button" onclick="submitForm()" class="f">Submit</button><br>
+        </form>
+    </div>
+</div>
+
+<div class="footer">
+    <p>Copyright © 2008 - 2023 TemplateMo - About - Privacy Policy - Contact - XML Sitemap</p>
+</div>
+<script src="store.js"></script>
+</body>
+</html>
+   

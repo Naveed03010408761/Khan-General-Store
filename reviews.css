@@ -5,12 +5,6 @@ body {
     margin: 0;
     padding: 20px;
   }
-  *{
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 .header{
     width: 100%;
     height: 70px;
@@ -250,4 +244,5 @@ body {
   #review-form button:hover {
     background-color: #0056b3;
   }
+}
   

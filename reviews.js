@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const reviewForm = document.getElementById("review-form");
     const reviewsDiv = document.getElementById("reviews");
   
-    // Load reviews from local storage on page load
     const savedReviews = JSON.parse(localStorage.getItem("reviews")) || [];
     savedReviews.forEach(displayReview);
   
